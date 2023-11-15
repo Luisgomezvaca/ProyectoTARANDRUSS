@@ -1,0 +1,84 @@
+
+.cabecera__ingresar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #30bcc6;
+  }
+  
+.cabecera__icono {
+    margin-left: 10px;
+}
+  
+  .cabecera__logo{
+    width: 15%;
+}
+
+.cabecera__icono{
+    width: 20px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+body {
+    background-color: white;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: arial;
+    font-size: 15px;
+}
+  
+h2 {
+    text-align: center;
+}
+  
+  .Titulo__Form{
+    font-weight: bold;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="text"], input[type="email"], textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  
+
+
+  
